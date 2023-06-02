@@ -1,0 +1,278 @@
+
+
+body {
+}
+
+.app {
+    
+}
+
+.top-header {
+    width: 100%;
+    display: inline-flex;
+    padding: 6px 0;
+    background: #00483d;
+}
+
+.header__navbar {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header__navbar-list {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0 10px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__navbar-item {
+    display: inline-block;
+    padding-left: 12px;
+}
+
+
+.header .header__navbar-item >a {
+    font-size: 13px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.mid-header {
+    background-color: #fff;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mid-header .container {
+    padding: 20px 0;
+    display: flex;
+}
+
+.mid-header .container .logo {
+
+    padding-right: 10px;
+    width: 256px;
+}
+
+.mid-header .container .search-box {
+    flex-basis: 100%;
+    padding: 2px 0 0 20px;
+    vertical-align: top;
+    position: relative;
+}
+
+.border {
+    border: 1px solid #eee;
+    background: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 6px #ccc;
+}
+
+button {
+    box-shadow: 0 4px 6px #ccc;
+    position: absolute;
+    right: 4px;
+    top: -5px;
+    background: #00483d;
+    background-image: linear-gradient(#00917a,#00483d);
+    border: none;
+    border-radius: 17px;
+    width: 42px;
+    height: 42px;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.oder-tools {
+    display: flex;
+    width: 220px;
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.item-check-oder {
+    margin-right: 25px;
+}
+
+.item-check-oder a {
+    display: block;
+    background: #00483e;
+    border-radius: 10px;
+    padding: 6px 8px;
+    box-shadow: 0 4px 6px #ccc;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    width: 110px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.item-check-oder .icon {
+    font-size: 30px;
+    position: absolute;
+    left: 8px;
+}
+
+.item-check-oder .check {
+    text-align: left;
+    display: block;
+    margin-left: 40px;
+}
+
+.oder-tools {
+    display: flex;
+    width: 220px;
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.oder-tools .item-cart {
+    font-size: 38px;
+    float: left;
+
+}
+.oder-tools .item-cart > a {
+    text-decoration: none;
+    color: #00483d;
+
+
+}
+
+.root {
+    height: 65px;
+    background: #00483d;
+    box-shadow: 0 4px 6px #ccc;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    max-width: 1200px;
+}
+
+.bot-header li {
+    margin: 8px 14px 4px 14px
+}
+
+.bot-header li > a{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+.bot-header .root i {
+    padding-bottom: 8px;
+    color: #fff;
+    float: center;
+    padding: 6px;
+}
+
+.bot-header nav ul li .sub-container {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 55px;
+    padding-top: 15px;
+}
+
+.sub-container .sub {
+    background: #fff;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #ccc;
+}
+
+.sub-container .sub .menu-g1 {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.sub-container .sub .menu-g1 .list-item {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sub-container .sub .list-item a {
+    color: #000;
+}
+
+section .top-slider {
+    margin: 20px 0 20px 0;
+
+}
+
+section .top-slider img{
+    border-radius: 10px;
+}
+
+section .sub-slider-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+margin: 0;
+}
+
+section .sub-slider-list li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #00000029;
+    height: 65px;
+    width: 295px;
+}
+
+section .sub-slider-list .sub-item {
+    text-align: center;
+    opacity: 60%;
+
+
+}
+
+section .sub-slider-list .sub-item p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+section .sub-slider-list .sub-item span {
+    font-size: 11px;
+}
+
+section .list-banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px 0;
+}
+
